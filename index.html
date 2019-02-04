@@ -1,658 +1,546 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<title>Akash Lal</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Akash Lal Creative Portfolio, Portfolio lalakash, creative design, akashlal.tk" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- bootstrap-css -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstrap-css -->
-<!-- css -->
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<!--// css -->
-<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
-<link href="css/owl.theme.css" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!-- font -->
-<link href="//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
-<!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<!-- menu -->
-<link rel="stylesheet" href="css/main.css">
-<script type="text/javascript" src="js/main.js"></script>
-<!-- //menu --> 
-<script>
-$(document).ready(function() { 
-	$("#owl-demo").owlCarousel({
- 
-		autoPlay: 3000, //Set AutoPlay to 3 seconds
-		autoPlay:true,
-		items : 3,
-		itemsDesktop : [640,5],
-		itemsDesktopSmall : [414,4]
- 
-	});
-	
-}); 
-</script>
-<style>
-.hvr-float-shadow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  position: relative;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-float-shadow:before {
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
-  content: '';
-  top: 100%;
-  left: 5%;
-  height: 10px;
-  width: 90%;
-  opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
-  /* W3C */
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform, opacity;
-  transition-property: transform, opacity;
-}
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-  /* move the element up by 5px */
-}
-.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
-  opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
-  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
-}
-
-.m_nav_ham_1_open, .m_nav_ham_2_open, .m_nav_ham_3_open, #m_ham_1, #m_ham_2, #m_ham_3{
-	-webkit-transition: 0.3s;
-}
-
-.feedback-img {
-	width: 60%;
-}
-</style>
-</head>
-<body>
-	<!-- banner -->
-	<div class="banner" id="home">
-		<!-- menu -->
-			<div id="toggle_m_nav">
-			  <div id="m_nav_menu" class="m_nav">
-				<div class="m_nav_ham" id="m_ham_1"></div>
-				<div class="m_nav_ham" id="m_ham_2"></div>
-				<div class="m_nav_ham" id="m_ham_3"></div>
-			  </div>
-			</div>
-
-			<div id="m_nav_container" class="m_nav">
-			  <ul id="m_nav_list" class="m_nav">
-				<li class="m_nav_item" id="m_nav_item_1"> <a href="#home">Home</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">About</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_3"> <a href="#statistics">Statistics</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_4"> <a href="#experience">Experience</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_5"> <a href="#projects">Projects</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_6"> <a href="#contact">Contact</a> </li>
-			  </ul>
-			</div>
-		<!-- menu -->
-		<div class="container">
-			<div class="agile-logo">
-				<h1><a href="index.html">Creative<span>Developer</span></a></h1>
-			</div>
-			<div class="w3l-banner-grids">
-				<div class="col-md-8 w3ls-banner-right">
-					<div class="banner-right-img">
-						<img src="images/lalakash.jpg" alt="" />
+    <head>
+        <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="description" content="Akash Lal | Web Developer | Software Developer | Background in E-commerce and ERP development.">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>MeetMe | Akash Lal</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        
+        <!--================Header Menu Area =================-->
+        <header class="header_area">
+            <div class="main_menu">
+            	<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container box_1620">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto">
+								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" href="about-us.html">Codelab</a></li> 
+								<li class="nav-item"><a class="nav-link" href="services.html">Certifications</a></li> 
+								<li class="nav-item submenu dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+									</ul>
+								</li> 
+								<li class="nav-item submenu dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+									</ul>
+								</li> 
+								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							</ul>
+						</div> 
 					</div>
-					<div class="banner-right-info">
-						<h2>I live in New delhi but my heart is always in technologies and social media. Don't believe me, check out the following links: </h2>
-						<p>
-							<!-- Links - Connect -->
-							<div class="hvr-float-shadow">
-							<a target="_blank" href="https://stackoverflow.com/users/5564775/akash-lal">
-								<img src="https://stackoverflow.com/users/flair/5564775.png?theme=default" width="208" height="58" alt="profile for Akash lal at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Akash lal at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-							</a>
+            	</nav>
+            </div>
+        </header>
+        <!--================Header Menu Area =================-->
+        
+        <!--================Home Banner Area =================-->
+        <section class="home_banner_area">
+           	<div class="container box_1620">
+           		<div class="banner_inner d-flex align-items-center">
+					<div class="banner_content">
+						<div class="media">
+							<div class="d-flex">
+								<img src="img/personal.jpg" alt="">
 							</div>
-							<!-- Links - Connect -->
-						</p>
-					</div>
-					<div class="clearfix"> </div>
-					<div class="w3-button">
-						<div class="w3-button-info m_nav_item">
-							<a class="hvr-sweep-to-bottom" href="#contact">Contact Me</a>
+							<div class="media-body">
+								<div class="personal_text">
+									<h6>Hello Everybody, i am</h6>
+									<h3>Akash Lal</h3>
+									<h4>Full Stack Developer</h4>
+									<p>I am from New delhi but my heart is always in technologies and social media. Don't believe me, you need to <b>check out my whole profile</b>.</p>
+									<ul class="list basic_info">
+										<li><a title="Send me birthday wishes" target="_blank" href="http://www.way2sms.com/"><i class="lnr lnr-calendar-full"></i> 13th September, 1994</a></li>
+										<li><a title="Connect HTC 526 g+" href="tel:7503065901"><i class="lnr lnr-phone-handset"></i> (+91) 750 306 5901</a></li>
+										<li><a title="Let's connect formally" href="mailto:akashlal139@gmail.com?Subject=Hi%20Akash"><i class="lnr lnr-envelope"></i> akashlal139@gmail.com</a></li>
+										<li><a href="https://www.google.com/maps/place/RZF-371,+Gautam+Budh+Marg,+Block+F,+Raj+Nagar+Extension,+Raj+Nagar,+New+Delhi,+Delhi+110077/@28.5776725,77.083225,17z/data=!3m1!4b1!4m5!3m4!1s0x390d1b6e0b21ce2d:0x32270d8eade01473!8m2!3d28.5776725!4d77.085419" target="_blank" title="Locate Me!"><i class="lnr lnr-home"></i> New Delhi, India</a></li>
+									</ul>
+									<ul class="list personal_social">
+										<li><a title="Facebook!" href="https://www.facebook.com/akashlal2613"><i class="fa fa-facebook"></i></a></li>
+										<li><a title="Twitter!" href="https://twitter.com/akash_lal_99999"><i class="fa fa-twitter"></i></a></li>
+										<li><a title="LinkedIn!" href="https://www.linkedin.com/in/akash-lal-5a269b124/"><i class="fa fa-linkedin"></i></a></li>
+										<li><a target="_blank" title="Resume / CV!" href="https://docs.google.com/document/d/1Ajj1sj7CUD_ftTYF2YiDXgl__KBHBuiZndP3kM1bHi4/edit?usp=sharing"><i class="fa fa-file"></i></a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="social-grids">
-						<div class="social-info">
-							<h4>Follow : </h4>
-						</div>
-						<div class="agileinfo-social-grids">
-							<ul>
-								<li><a href="https://www.facebook.com/akashlal2613"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://twitter.com/akash_lal_99999"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss"></i></a></li>
-								<li><a href="#"><i class="fa fa-vk"></i></a></li>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================Welcome Area =================-->
+        <section class="welcome_area p_120">
+        	<div class="container">
+        		<div class="row welcome_inner">
+        			<div class="col-lg-6">
+        				<div class="welcome_text">
+        					<h4>About Myself</h4>
+        					<p>
+								I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. It was a trip down Memory Lane. Love to work with Linux based OS like: <b>Ubuntu</b> and powerful Web-server like: <b>Nginx</b>.
+							</p>
+        					<div class="row">
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-database"></i>
+        								<h4>1000 +</h4>
+        								<p>Total Commits</p>
+        							</div>
+        						</div>
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-book"></i>
+        								<h4>2.5 +</h4>
+        								<p>Total Experience</p>
+        							</div>
+        						</div>
+        						<div class="col-md-4">
+        							<div class="wel_item">
+        								<i class="lnr lnr-users"></i>
+        								<h4>3965</h4>
+        								<p>Total Volunteers</p>
+        							</div>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-6">
+        				<div class="tools_expert">
+        					<div class="skill_main">
+								<div class="skill_item">
+									<h4>Javascript <span class="counter">85</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Php <span class="counter">90</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>CodeIgniter <span class="counter">85</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>Magento <span class="counter">75</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+								<div class="skill_item">
+									<h4>NodeJS <span class="counter">70</span>%</h4>
+									<div class="progress_br">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Welcome Area =================-->
+        
+        <!--================My Tabs Area =================-->
+        <section class="mytabs_area p_120">
+        	<div class="container">
+        		<div class="tabs_inner">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Experiences</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<ul class="list">
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+											<h4>Colorlib</h4>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+											<h4>Colorlib</h4>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+								<li>
+								<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+											<h4>Colorlib</h4>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
 							</ul>
 						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-banner-left">
-					<div class="w3ls-banner-left-info">
-						<h4>Job Title</h4>
-						<p>Software and Web Developer</p>
-					</div>
-					<div class="w3ls-banner-left-info">
-						<h4>Name</h4>
-						<p>Akash Lal</p>
-					</div>
-					<div class="w3ls-banner-left-info">
-						<h4>Sex</h4>
-						<p>Male</p>
-					</div>
-					<div class="w3ls-banner-left-info">
-						<h4>Address</h4>
-						<p>RZF-411, Rajnagar - II, Palam Colony, New Delhi 110077.</p>
-					</div>
-					<div class="w3ls-banner-left-info">
-						<h4>Email Address</h4>
-						<p><a href="mailto:akashlal139@gmail.com">akashlal139@gmail.com</a></p>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //banner -->
-	<!-- about -->
-	<div class="about" id="about">
-		<div class="container">
-			<div class="wthree-about-grids">
-				<div class="col-md-6 wthree-about-left">
-					<h3>About Me</h3>
-					<h4>I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. It was a trip down Memory Lane.</h4>
-					<p>With two years of experience in full-stack web development, I am confident in various technologies. <span>My experience has provided me with innovative, technical, best practices skills necessary to successfully provide the edge over the other projects in the industries.</span>I have developed and delivered high-end website solutions to various clients by utilizing wide-ranging technologies and frameworks. Proven ability to leverage full-stack expertise to build interactive and user-centered websites with scalability. 
-					<span>Love to work with Linux based OS like: <b>Ubuntu</b> and powerful Web-server like: <b>Nginx.</b></span></p>
-				</div >
-				<div class="col-md-6 wthree-about-right">
-					<h3>Skills</h3>
-					<div class="skills-bar">
-						<section class='bar'>
-						  <section class='wrap'>
-							<div class='wrap_right'>
-							  <div class='bar_group'>
-								<div class='bar_group__bar thin' label='Angular JS' show_values='true' tooltip='true' value='85'></div>
-								<div class='bar_group__bar thin' label='PHP' show_values='true' tooltip='true' value='100'></div>
-								<div class='bar_group__bar thin' label='Node JS' show_values='true' tooltip='true' value='75'></div>
-								<div class='bar_group__bar thin' label='Magento 1 & 2' show_values='true' tooltip='true' value='70'></div>
-								<div class='bar_group__bar thin' label='CodeIgniter' show_values='true' tooltip='true' value='80'></div>
-							  </div>
-							</div>
-							<div class='clear'></div>
-						  </section>
-						</section>
-					</div>
-				</div >
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!-- //about -->
-	<!-- statistics -->
-	<div class="jarallax statistics" id="statistics">
-		<div class="container">
-			<div class="w3-agileits-statistics-heading">
-				<h3>My Statistics</h3>
-			</div>
-			<div class="agile-statistics-grids">
-				<div class="col-sm-4 agile-statistics-grid">
-					<h4>15</h4>
-					<i class="fa fa-desktop" aria-hidden="true"></i>
-					<p>Projects Complete</p>
-				</div>
-				<div class="col-sm-4 agile-statistics-grid statistics-grid2">
-					<h4>10</h4>
-					<i class="fa fa-user" aria-hidden="true"></i>
-					<p>Clients</p>
-				</div>
-				<div class="col-sm-4 agile-statistics-grid">
-					<h4>12</h4>
-					<i class="fa fa-trophy" aria-hidden="true"></i>
-					<p>Awards</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<script src="js/jarallax.js"></script>
-			<script src="js/SmoothScroll.min.js"></script>
-			<script type="text/javascript">
-				/* init Jarallax */
-				$('.jarallax').jarallax({
-					speed: 0.5,
-					imgWidth: 1366,
-					imgHeight: 768
-				})
-			</script>
-		</div>
-	</div>
-	<!-- //statistics -->
-	<!-- experience -->
-	<div class="experience" id="experience">
-		<div class="container">
-			<div class="w3-agileits-statistics-heading experience-heading">
-				<h3>Work Experience</h3>
-			</div>
-			<div class="w3-agile-experience-grids">
-				<div class="experience-top-grids">
-					<div class="col-md-6 experience-grid">
-						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-folder-open" aria-hidden="true"></i>
-						</div>
-						<div class="experience-grid-info">
-							<h5>ERP / CRM Development</h5>
-							<p>I develop CRM / ERP to make company's processes more effective and efficient by managing and capturing customer's relevant information.</p>
+						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							<ul class="list">
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+											<h4>Colorlib</h4>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+											<h4>Colorlib</h4>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+								<li>
+								<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<p>March 2017 to present</p>
+										</div>
+										<div class="media-body">
+											<h4>Colorlib</h4>
+											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
+										</div>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
-					<div class="col-md-6 experience-grid experience-grid1">
-						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-bell" aria-hidden="true"></i>
-						</div>
-						<div class="experience-grid-info">
-							<h5>E-Commerce Websites</h5>
-							<p>Love to build E-commerce websites to electonically exchange services and goods that consumers have difficulty finding in malls or department stores.</p>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="experience-top-grids">
-					<div class="col-md-6 experience-grid experience-grid2">
-						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-comments" aria-hidden="true"></i>
-						</div>
-						<div class="experience-grid-info">
-							<h5>Android/iOS Applications</h5>
-							<p>I use React Native to build Android/iOS applications for each and every Android / iOS mobile devices. Fits into wide range of screen sizes perfectly.</p>
-						</div>
-					</div>
-					<div class="col-md-6 experience-grid experience-grid3">
-						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-asterisk" aria-hidden="true"></i>
-						</div>
-						<div class="experience-grid-info">
-							<h5>Web Development </h5>
-							<p>Developed websites from the frontend to the backend. I have built dynamic and interactive websites. Languages that I prefer: Php, Servlets, JSPs, MERN stack etc.</p>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //experience -->
-	<!-- feedback -->
-	<div class="jarallax feedback">
-		<div class="container">
-			<div class="w3-agileits-statistics-heading">
-				<h3>My Workarounds</h3>
-			</div>
-			<div class="agileits-feedback-grids">
-				<div id="owl-demo" class="owl-carousel owl-theme">
-					<div class="item">
-						<div class="feedback-info">
-							<div class="feedback-top">
-								<p> GitHub is a web-based hosting service for version control using git. It is mostly used for computer code. </p>
-							</div>
-							<div class="feedback-grids">
-								<div class="feedback-img">
-									<img src="images/work/github.png" alt="" />
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="feedback-info">
-							<div class="feedback-top">
-								<p> Slack brings team communication and collaboration into one place so you can get more work done. </p>
-							</div>
-							<div class="feedback-grids">
-								<div class="feedback-img">
-									<img src="images/work/slack.png" alt="" />
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="feedback-info">
-							<div class="feedback-top">
-								<p> Trello is a web-based project management application. Infinitely flexible. Incredibly easy to use. </p>
-							</div>
-							<div class="feedback-grids">
-								<div class="feedback-img">
-									<img src="images/work/trello.png" alt="" />
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="feedback-info">
-							<div class="feedback-top">
-								<p> Web-based business and IT solutions, including an office tools suite, IOT, and a suite of IT softwares. </p>
-							</div>
-							<div class="feedback-grids">
-								<div class="feedback-img">
-									<img src="images/work/zoho.png" alt="" />
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="feedback-info">
-							<div class="feedback-top">
-								<p> Stack Overflow is the largest online community for developers to learn and share​ programming ​knowledge. </p>
-							</div>
-							<div class="feedback-grids">
-								<div class="feedback-img" style="width: 85%;">
-									<img src="images/work/stackoverflow.png" alt="" />
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>	
-					</div>
-				</div>
-			</div>
-			<script type="text/javascript">
-				/* init Jarallax */
-				$('.jarallax').jarallax({
-					speed: 0.5,
-					imgWidth: 1366,
-					imgHeight: 768
-				})
-			</script>
-
-		</div>
-	</div>
-	<!-- //feedback -->
-	<!-- projects -->
-	<div class="projects" id="projects">
-		<div class="container">
-			<div class="w3-agileits-statistics-heading experience-heading">
-				<h3>My Projects</h3>
-			</div>
-		</div>
-		<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-					<ul id="myTab" class="nav nav-tabs" role="tablist" style="list-style-type:none; display:flex;  justify-content: center;">
-						<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">Official</a></li>
-						<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">Personal</a></li>
+        		</div>
+        	</div>
+        </section>
+        <!--================End My Tabs Area =================-->
+        
+        <!--================Feature Area =================-->
+        <section class="feature_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>offerings to my clients</h2>
+        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+        		</div>
+        		<div class="feature_inner row">
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-city"></i>
+        					<h4>Architecture</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-skyline"></i>
+        					<h4>Interior Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-6">
+        				<div class="feature_item">
+        					<i class="flaticon-sketch"></i>
+        					<h4>Concept Design</h4>
+        					<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Feature Area =================-->
+        
+        <!--================Home Gallery Area =================-->
+        <section class="home_gallery_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Our Latest Featured Projects</h2>
+        			<p>Who are in extremely love with eco friendly system.</p>
+        		</div>
+        		<div class="isotope_fillter">
+        			<ul class="gallery_filter list">
+						<li class="active" data-filter="*"><a href="#">All</a></li>
+						<li data-filter=".brand"><a href="#">Vector</a></li>
+						<li data-filter=".manipul"><a href="#">Raster</a></li>
+						<li data-filter=".creative"><a href="#">UI/UX</a></li>
+						<li data-filter=".design"><a href="#">Printing</a></li>
 					</ul>
-					<div id="myTabContent" class="tab-content">
-						<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p1.jpg">
-										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive" />
-										  </figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p2.jpg">
-										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive" />
-										  </figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p3.jpg">
-										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p4.jpg">
-										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive" />
-										</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p5.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p6.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p7.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p8.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
+        		</div>
+        	</div>
+        	<div class="container">
+        		<div class="gallery_f_inner row imageGallery1">
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/project-1.jpg" alt="">
+        						<a class="light" href="img/gallery/project-1.jpg"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>3D Helmet Design</h4>
+        						<p>Client Project</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/project-2.jpg" alt="">
+        						<a class="light" href="img/gallery/project-2.jpg"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>2D Vinyl Design</h4>
+        						<p>Client Project</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/project-3.jpg" alt="">
+        						<a class="light" href="img/gallery/project-3.jpg"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Creative Poster Design</h4>
+        						<p>Client Project</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand creative print">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/project-4.jpg" alt="">
+        						<a class="light" href="img/gallery/project-4.jpg"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Embosed Logo Design</h4>
+        						<p>Client Project</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/project-5.jpg" alt="">
+        						<a class="light" href="img/gallery/project-5.jpg"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>3D Disposable Bottle</h4>
+        						<p>Client Project</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 brand creative">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<img class="img-fluid" src="img/gallery/project-6.jpg" alt="">
+        						<a class="light" href="img/gallery/project-6.jpg"><img src="img/gallery/icon.png" alt=""></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>3D Logo Design</h4>
+        						<p>Client Project</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="more_btn">
+        			<a class="main_btn" href="#">Load More Items</a>
+        		</div>
+        	</div>
+        </section>
+        <!--================End Home Gallery Area =================-->
+        
+        <!--================Testimonials Area =================-->
+        <section class="testimonials_area p_120">
+        	<div class="container">
+        		<div class="main_title">
+        			<h2>Testimonials</h2>
+        			<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+        		</div>
+        		<div class="testi_inner">
+					<div class="testi_slider owl-carousel">
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
 							</div>
 						</div>
-						<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p6.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p9.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p9.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
 							</div>
 						</div>
-						<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p1.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p5.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p7.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p3.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p2.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p4.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p10.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p10.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="school" aria-labelledby="school-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p8.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
+						<div class="item">
+							<div class="testi_item">
+								<p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
+								<h4>Fanny Spencer</h4>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star"></i></a>
+								<a href="#"><i class="fa fa-star-half-o"></i></a>
 							</div>
 						</div>
 					</div>
-		</div>
-		<script src="js/jquery.tools.min.js"></script>
-			<script src="js/jquery.mobile.custom.min.js"></script>
-			<script src="js/jquery.cm-overlay.js"></script>
-			<script>
-				$(document).ready(function(){
-					$('.cm-overlay').cmOverlay();
-				});
-			</script>
-
-	</div>
-	<!-- //projects -->
-	<!-- map -->
-	<div class="map-grid">
-		<div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Dwarka%20sector%209+(Akash%20Lal)&ie=UTF8&t=&z=14&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/en/custom-google-maps/">Create a custom Google Map</a> by <a href="https://www.mapsdirections.info/en/">Measure area on map</a></iframe></div><br />
-	</div>
-	<!-- //map -->
-	<!-- contact -->
-	<div class="contact" id="contact">
-		<div class="container">
-			<div class="w3-agileits-statistics-heading experience-heading">
-				<h3>Contact Me</h3>
-			</div>
-			<div class="contact-form">
-				<form action="phpfunc/send-mail.php" method="post">
-					<div class="fields-grid">
-						<div class="styled-input agile-styled-input-top">
-							<input type="text" name="full_name" required="">
-							<label>Full Name</label>
-							<span></span>
-						</div>
-						<div class="styled-input agile-styled-input-top">
-							<input type="text" name="phone" required=""> 
-							<label>Phone</label>
-							<span></span>
-						</div>
-						<div class="styled-input">
-							<input type="text" name="email" required=""> 
-							<label>Email</label>
-							<span></span>
-						</div> 
-						<div class="styled-input">
-							<input type="text" name="subject" required="">
-							<label>Subject</label>
-							<span></span>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="styled-input textarea-grid">
-						<textarea name="message" required=""></textarea>
-						<label>Message</label>
-						<span></span>
-					</div>	 
-					<input type="submit" value="SEND">
-				</form>
-			</div>
-		</div>
-	</div>
-	<!-- //contact -->
-	<!-- copyright -->
-	<div class="agileits-w3layouts-footer">
-		<div class="container">
-			<p>© 2016 - 2018 Akash Lal | Design by <a href="http://w3layouts.com">W3layouts</a></p>
-		</div>
-	</div>
-	<!-- //copyright -->
-	<script src="js/bars.js"></script>
-	<script src="js/owl.carousel.js"></script> 
-</body>	
+        		</div>
+        	</div>
+        </section>
+        <!--================End Testimonials Area =================-->
+        
+        <!--================Footer Area =================-->
+        <footer class="footer_area p_120">
+        	<div class="container">
+        		<div class="row footer_inner">
+        			<div class="col-lg-5 col-sm-6">
+        				<aside class="f_widget ab_widget">
+        					<div class="f_title">
+        						<h3>About Me</h3>
+        					</div>
+        					<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+        					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        				</aside>
+        			</div>
+        			<div class="col-lg-5 col-sm-6">
+        				<aside class="f_widget news_widget">
+        					<div class="f_title">
+        						<h3>Newsletter</h3>
+        					</div>
+        					<p>Stay updated with our latest trends</p>
+        					<div id="mc_embed_signup">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                                	<div class="input-group d-flex flex-row">
+                                        <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                        <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>		
+                                    </div>				
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+        				</aside>
+        			</div>
+        			<div class="col-lg-2">
+        				<aside class="f_widget social_widget">
+        					<div class="f_title">
+        						<h3>Follow Me</h3>
+        					</div>
+        					<p>Let us be social</p>
+        					<ul class="list">
+        						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        						<li><a href="#"><i class="fa fa-behance"></i></a></li>
+        					</ul>
+        				</aside>
+        			</div>
+        		</div>
+        	</div>
+        </footer>
+        <!--================End Footer Area =================-->
+        
+        
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
 </html>
+<!-- 192.30.252.154 -->
