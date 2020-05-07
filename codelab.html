@@ -195,6 +195,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
         <script src="vendors/counter-up/jquery.counterup.min.js"></script>
         <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
+		<script src="js/theme.js"></script>
+		
+		<script>
+			$.ajax({
+  				url: "https://api.github.com/users/lalakash/repos",
+				success: function (response) {
+    				console.log(response);
+				}
+			})
+		</script>
+
     </body>
 </html>
